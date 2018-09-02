@@ -34,6 +34,7 @@ int subzero_delete_line(sub_t *sub, int idx);
 int subzero_search_by_text(srt_t *srt, char *text, int *res);
 int subzero_search_by_time(srt_t *srt, int start, int end, int *res);
 
-int subzero_offset_timestamps(srt_t *srt, int val);
+int subzero_destroy_sub(sub_t *sub);
+int subzero_destroy_srt(srt_t *srt);
 
 #endif
